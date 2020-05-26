@@ -24,7 +24,8 @@ cout<<"nivel de juego papa2: "<<mapa.gameLevel<<endl;
 	switch (mapa.gameLevel)
 	{
 		case 1:
-			cout<<"esta entrando en case 1"<<endl;
+			cout<<"Probando GITHUB"<<endl;
+            cout<<"esta entrando en case 1"<<endl;
 			mapa.drawMap();
 			cout<<"Utiliza (w)=arriba,(a)Izquierda,(s)Abajo,(d)Derecha,(q)Quit..."<<endl;
 			mapa.isGameOver = false;
